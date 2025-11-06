@@ -32,21 +32,21 @@ random_numbers3 <- readRDS(
 
 ```{r, random-numbers1-histogram}
 #| fig.cap = "First set of random numbers"
-hist(random_numbers1)
+hist(random_numbers1, col = "gray25")
 ```
 
 # Distribution 2
 
 ```{r, random-numbers2-histogram}
 #| fig.cap = "Second set of random numbers"
-hist(random_numbers2)
+hist(random_numbers2, col = "lightblue")
 ```
 
 # Distribution 3
 
 ```{r, random-numbers3-histogram}
 #| fig.cap = "Third set of random numbers"
-hist(random_numbers3)
+hist(random_numbers3, col = "pink")
 ```
 
 # Distribution 4
@@ -54,7 +54,7 @@ hist(random_numbers3)
 ```{r, random-numbers4-histogram}
 #| fig.cap = "Fourth set of random numbers"
 random_numbers4 <- readRDS("output/random_numbers4.rds")
-hist(random_numbers4)
+hist(random_numbers4, col = "orange")
 ```
 
 
