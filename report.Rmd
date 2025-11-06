@@ -5,6 +5,7 @@ output: html_document
 ---
 
 ```{r, here-i-am, include = FALSE}
+knitr::opts_chunk$set(dev = "png", fig.width = 6, fig.height = 4)
 here::i_am(
   "report.Rmd"
 )
